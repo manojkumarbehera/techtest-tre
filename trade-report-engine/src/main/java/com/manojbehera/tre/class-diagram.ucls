@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.2" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="com.manojbehera.tre.manager.DailyReportingManager" project="trade-report-engine" 
+    file="/trade-report-engine/src/main/java/com/manojbehera/tre/manager/DailyReportingManager.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="99" width="292" x="1047" y="333"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="com.manojbehera.tre.manager.ReportingFrequencyManagerFactory" 
+    project="trade-report-engine" 
+    file="/trade-report-engine/src/main/java/com/manojbehera/tre/manager/ReportingFrequencyManagerFactory.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="376" x="1047" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="com.manojbehera.tre.manager.ReportingFrequencyManager" 
+    project="trade-report-engine" 
+    file="/trade-report-engine/src/main/java/com/manojbehera/tre/manager/ReportingFrequencyManager.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="117" width="301" x="725" y="176"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="com.manojbehera.tre.report.ReportingFrequency" project="trade-report-engine" 
+    file="/trade-report-engine/src/main/java/com/manojbehera/tre/report/ReportingFrequency.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="261" width="393" x="725" y="472"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="com.manojbehera.tre.report.frequency.daily.DailyReporting" 
+    project="trade-report-engine" 
+    file="/trade-report-engine/src/main/java/com/manojbehera/tre/report/frequency/daily/DailyReporting.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="261" width="481" x="725" y="773"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="com.manojbehera.tre.report.frequency.daily.util.CalculateSettlementDates" 
+    project="trade-report-engine" 
+    file="/trade-report-engine/src/main/java/com/manojbehera/tre/report/frequency/daily/util/CalculateSettlementDates.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="393" x="1473" y="1074"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="com.manojbehera.tre.report.frequency.daily.util.CalculateUsdAmount" 
+    project="trade-report-engine" 
+    file="/trade-report-engine/src/main/java/com/manojbehera/tre/report/frequency/daily/util/CalculateUsdAmount.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="642" x="42" y="1074"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="com.manojbehera.tre.report.frequency.daily.util.CalculateRank" 
+    project="trade-report-engine" 
+    file="/trade-report-engine/src/main/java/com/manojbehera/tre/report/frequency/daily/util/CalculateRank.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="459" x="974" y="1074"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="com.manojbehera.tre.repository.impl.TradeRepositoryImpl" 
+    project="trade-report-engine" 
+    file="/trade-report-engine/src/main/java/com/manojbehera/tre/repository/impl/TradeRepositoryImpl.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="189" x="724" y="1074"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="10" language="java" name="com.manojbehera.tre.repository.TradeRepository" project="trade-report-engine" 
+    file="/trade-report-engine/src/main/java/com/manojbehera/tre/repository/TradeRepository.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="81" width="189" x="934" y="1285"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <dependency id="11">    
+    <bendpoint x="1236" y="773"/>    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <dependency id="12">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <dependency id="13">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <dependency id="14">    
+    <bendpoint x="1257" y="773"/>    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <generalization id="15">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="4"/>  
+  </generalization>  
+  <dependency id="16">    
+    <bendpoint x="943" y="1074"/>    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <dependency id="17">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <generalization id="18">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <dependency id="19">    
+    <bendpoint x="1056" y="176"/>    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <realization id="20">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="10"/>  
+  </realization>  
+  <dependency id="21">    
+    <bendpoint x="734" y="333"/>    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <dependency id="22">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <dependency id="23">    
+    <bendpoint x="1148" y="472"/>    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="24">    
+    <bendpoint x="393" y="773"/>    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <dependency id="25">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <dependency id="26">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
